@@ -16,6 +16,9 @@ class ArchiveDocument(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=False)
     creator = models.CharField(max_length=50, blank="True")
+    size = models.CharField(max_length=50, blank="True")
+    usage = models.TextField(blank=True)
+    country = models.CharField(max_length=50, blank="True")
     photo_image = StdImageField(
         upload_to="photographs/",
         variations={"thumbnail": {"width": 300, "height": 300}},
@@ -66,8 +69,7 @@ class Artifact(ArchiveDocument):
                         (MAT_WOOD, "Wood")]
     material = models.CharField(
         max_length=50, choices=MATERIAL_CHOICES, default=MAT_GLASS)
-    model3d = models.URLField(max_length=500, blank="True")
-
+    model3d = models.URLField(max_length=500, blank="True")   
 
 class Document(ArchiveDocument):
     # might want to do something to standardize this later so people can't
