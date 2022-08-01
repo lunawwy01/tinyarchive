@@ -1,17 +1,64 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+<style>
+h1 {
+    text-align: center;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+body {
+    background-color: blanchedalmond;
+    background-image: url("media/photographs/image_1.png");
+    text-align: center;
+    
+  }
+  
+.table_of_content {
+    line-height: 40px;
+    font-size: large;
+  }
+
+</style>
+
+<head>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
 <div class="page_title">
-    The Tiny Library
+    <h1>
+    The Tiny Kitchenware Library
+    </h1>
 </div>
 <div class="intro">
-    We are happy to meet you! We are small, but still growing.
+    <h4>
+    <em>We are happy to meet you! We are small, but still growing.</em>
+    </h4>
 </div>
-<ul>
-    <li><a href="archive/"> Archives </a></li>
-    <li><a href="exhibit/"> Exhibits </a></li>
-    <!-- <li> About Us </li> -->
-    <li><a href="aboutus/"> About Us </a></li>
-</ul>
+
+<div class="table_of_content">
+    <a href="archive/"> Archives </a> <br>
+    <a href="exhibit/"> Exhibits </a> <br>
+    <a href="aboutus/"> About Us </a> <br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div>
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <em>Fell free to ask questions and share your feedback!</em>
+      <p>Wenyue Wang: lunawwy@berkeley.edu</p>
+    </div>    
+</div>
+
+</body>
 
 {% endblock %}
