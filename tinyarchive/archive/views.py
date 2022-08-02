@@ -75,6 +75,10 @@ def item_detail(request, item_id):
         elif isinstance(archive_item, Artifact):
             context["item"]["material"] = archive_item.material
             context["item"]["3dmodel"] = archive_item.model3d
+            context["item"]["size"] = archive_item.size
+            context["item"]["color"] = archive_item.color
+            context["item"]["usage"] = archive_item.usage
+            context["item"]["country"] = archive_item.country
             template_to_render = "archive/item_artifact.html"
         else:
             context["item"]["transcription"] = archive_item.transcription

@@ -17,6 +17,7 @@ class ArchiveDocument(models.Model):
     description = models.TextField(blank=True, null=False)
     creator = models.CharField(max_length=50, blank="True")
     size = models.CharField(max_length=50, blank="True")
+    color = models.CharField(max_length=50, blank="True")
     usage = models.TextField(blank=True)
     country = models.CharField(max_length=50, blank="True")
     photo_image = StdImageField(
