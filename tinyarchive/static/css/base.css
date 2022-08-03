@@ -1,8 +1,9 @@
 body {
-    background-image: url("BackgroundMain.jpeg");
-    background-size: 1150px 1163px;
-    vertical-align: top;
-    max-width: 100%;
-    width: auto;
-    /* text-align: center;   */
-  }
+  background-image: url("BackgroundMain.jpeg");
+  background-size: 1150px 1163px;
+  vertical-align: top;
+  max-width: 100%;
+  width: auto;
+  /* text-align: center;   */
+}
+
