@@ -6,6 +6,11 @@ body {
   vertical-align: top;
   max-width: 100%;
   width: auto;
-  /* text-align: center;   */
+  /* text-align: center; */
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 
