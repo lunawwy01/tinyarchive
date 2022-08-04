@@ -1,6 +1,8 @@
 body {
-  background-image: url("BackgroundMain.jpeg");
-  background-size: 1150px 10000px;
+  background-image: url("header.png"),url("BackgroundMain.jpeg");
+  background-position: bottom 10px, top;
+  background-size: default,1150px 10000px;
+  background-repeat: repeat-x,repeat;
   vertical-align: top;
   max-width: 100%;
   width: auto;
