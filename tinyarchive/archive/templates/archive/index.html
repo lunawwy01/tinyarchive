@@ -1,20 +1,26 @@
-{% extends 'base.html' %}
 {% load static %}
-{% block content %}
-<br><br><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/archiveIndex.css' %}"/>
+    <title>Archives</title>
+</head>
+<body>
+
 <div class="breadcrumb">
     <h2><a href="/"> Tiny Kitchenware Library  </a></h2>
 </div>
 <h2><div class="page_title">
     The Archive
 </div></h2>
-
-
 <div class="content">
     {% if archive_items %}
     <table>
         <thead>
-            <th> Preview </th>
+            <th> Preview  </th>
             <th> Name </th>
             <th> Description </th>
         </thead>
@@ -37,4 +43,5 @@
     {% endif %}
 </div>
 
-{% endblock %}
+</body>
+</html>

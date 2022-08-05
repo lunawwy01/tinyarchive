@@ -1,0 +1,34 @@
+    body {
+    background-image: url("header.png"),url("BackgroundMain.jpeg");
+    background-position: bottom 10px, top;
+    background-size: default,1150px 20000px;
+    background-repeat: repeat-x,repeat;
+    vertical-align: top;
+    max-width: 100%;
+    width: auto;
+    padding: 70px 60px 15px 60px;
+    /* text-align: center; */
+    }
+
+    h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    }
+
+    th {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #db391b;
+    }
+
+    td {
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight:500;
+    }
+
+    td {
+        border-style: solid;
+        border-color:#85C1E9;
+        text-align: center;
+    }

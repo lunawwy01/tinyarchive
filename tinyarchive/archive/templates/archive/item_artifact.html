@@ -1,8 +1,17 @@
-{% extends 'base.html' %}
 {% load static %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/archiveArtifact.css' %}"/>
+    <title>Archives</title>
+</head>
+<body>
 <div class="breadcrumb">
-    <a href="/"> Tiny Library </a> / <a href= "/archive"> Archive </a>
+    <h2><a href="/"> Tiny Kitchenware Library </a></h2> 
+    <h2><a href= "/archive"> Archives </a></h2>
 </div>
 <div class="page_title">
     {{item.name}}
@@ -29,4 +38,5 @@
         </ul>
     </div>   
 </div>
-{% endblock %}
+</body>
+</html>
