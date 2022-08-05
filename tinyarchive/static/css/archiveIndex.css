@@ -3,6 +3,7 @@
         background-position:top, top;
         background-size: initial;
         background-repeat: repeat-x,repeat;
+        background-attachment: scroll,fixed;
         vertical-align: top;
         max-width: 100%;
         width: auto;
