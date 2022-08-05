@@ -3,7 +3,7 @@ body {
     background-size:initial;
     background-position:top, 100% 100%, top;
     background-repeat: repeat-x, no-repeat, repeat;
-    background-attachment: scroll,fixed;
+    background-attachment: scroll,fixed,fixed;
 
     vertical-align: top;
     max-width: 100%;
@@ -20,11 +20,14 @@ h2 {
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-
+.image {
+    float:left
+    clear;
+}
 
 .info {
-    /* float: right */
-    /* clear; */
+    float: right
+    clear;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:20px
+    font-size:20px;
 }
