@@ -1,8 +1,8 @@
 body {
-    background-image: url("dog.png"), url("BackgroundMain.jpeg");
-    background-position: bottom 10px,top;
-    background-size:default, 1150px 1163px;
-    background-repeat: no-repeat, repeat;
+    background-image: url("dog.png"), url("pig.png"), url("BackgroundMain.jpeg");
+    background-position:top left, top right, top;
+    background-size:auto, auto, 1150px 1163px;
+    background-repeat: no-repeat, no-repeat, repeat;
 
     vertical-align: top;
     max-width: 100%;

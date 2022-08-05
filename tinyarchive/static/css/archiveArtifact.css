@@ -1,7 +1,7 @@
 body {
     background-image: url("header.png"), url("pig.png"), url("BackgroundMain.jpeg");
-    background-size: default, default, default;
-    background-position: default, right bottom, top;
+    background-size:initial;
+    background-position:top, 100% 100%, top;
     background-repeat: repeat-x, no-repeat, repeat;
 
     vertical-align: top;
