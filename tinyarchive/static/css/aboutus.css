@@ -1,14 +1,13 @@
 body {
-    background-image: url("dog.png"), url("pig.png"), url("BackgroundMain.jpeg");
-    background-position:top left, top right, top;
-    background-size:auto, auto, 1150px 1163px;
-    background-repeat: no-repeat, no-repeat, repeat;
+    background-image: url("header.png"),url("dog.png"), url("pig.png"), url("BackgroundMain.jpeg");
+    background-position:top, 0% 30%, 100% 30%, top;
+    background-size:auto, 20%, 20%, 1150px 1163px;
+    background-repeat: repeat-x,no-repeat, no-repeat, repeat;
 
-    vertical-align: top;
+    
     max-width: 100%;
     width: auto;
-    /* text-align: center;   */
-    text-align: center;
+    padding: 70px 120px 15px 120px;
     }
 
 h1 {
@@ -17,8 +16,10 @@ h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* img {
-  position:absolute;
-  bottom: 0px;
-  left: 0px
-  } */
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+    padding: 0px 200px 15px 200px;
+    text-align: justify;
+}
