@@ -12,6 +12,7 @@ body {
     background-color: blanchedalmond;
     background-image: url("background.png");
     background-size: 1420px 1000px;
+    position: relative;
     
     vertical-align: top;
     max-width: 100%;
