@@ -37,4 +37,12 @@ body {
     font-weight: 700;
     line-height: 25px;
     padding: 2px 12px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:lightcoral;
+    color: black;
 }
