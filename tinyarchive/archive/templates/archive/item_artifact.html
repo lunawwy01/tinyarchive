@@ -37,7 +37,8 @@
             <!-- <li>3D Model URL: <a href = "{{item.3dmodel}}"> {{item.3dmodel}} </a></li> -->
             {% if item.3dmodel %}
             <div class="sketchfab-embed-wrapper">
-                <iframe title="{{item.name}}" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="{{item.3dmodel}}/embed">  </iframe> 
+                <iframe title="{{item.name}}" height="300px" width="600px"
+                frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="{{item.3dmodel}}/embed">  </iframe> 
                 <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> 
                     <a href="{{item.3dmodel}}" target="_blank">{{item.name}} on Sketchfab</a>
                 </p>
