@@ -17,6 +17,7 @@ h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Method taken from https://codepen.io/arlinacode/pen/BxgRPb */
 h1 span {
 position: relative;
 top: 20px;
